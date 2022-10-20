@@ -1,0 +1,86 @@
+:root {
+    --black: black;
+    --white: white;
+    --gray: gray;
+    --purple: rgb(160, 76, 140);
+}
+
+* {
+    background-color: var(--black);
+    
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    background-color: var(--black);
+    color: var(--purple);
+    width: 100%;
+    font-size:x-large;
+    display: flex;
+}
+
+.navigation-item {
+    background: var(--black);
+    padding: 10px;
+    border: 5px solid var(--purple);
+    justify-content: center;
+    text-align: center;
+}
+
+.flex1 {
+    flex-basis: 33%;
+}
+
+.flex2 {
+    flex-basis: 33%;
+}
+
+.flex3 {
+    flex-basis: 33%;
+}
+
+
+header a:hover {
+    color: var(--white);
+    cursor: pointer;
+}
+
+.background-image {
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+}
+
+/*.background-image {
+    background-image: url("assets/images/Number-three.jpg");
+    height: 800px;
+    width: 100%;
+    background-repeat: no-repeat;
+}*/
+
+
+/* Move this content to overlap the background image*/
+.article-content {
+    height: 850px;
+    background-size: 100%;
+    background-image: url("../assets/images/Rhythm.png");
+    color: var(--white);
+     /*background-color: var(--black);
+    display: flex;
+    flex-direction:column;
+    padding: 100px;
+    color: var(--white);*/
+}
+
+
+
+.article-content section {
+
+}
+
+.article-content section p {
+    
+}
