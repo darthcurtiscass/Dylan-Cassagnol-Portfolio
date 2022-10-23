@@ -15,6 +15,8 @@ https://darthcurtiscass.github.io/Dylan-Cassagnol-Portfolio/
 
 ## Screenshot
 
+![](../Portfolio-screenshot.png)
+
 ## License
 
 N/A
