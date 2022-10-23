@@ -5,13 +5,9 @@
     --purple: rgb(160, 76, 140);
 }
 
-* {
-    background-color: var(--black);
-    
-}
-
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--black);
 }
 
 .header {
@@ -42,7 +38,6 @@ body {
     flex-basis: 33%;
 }
 
-
 header a:hover {
     color: var(--white);
     cursor: pointer;
@@ -54,33 +49,88 @@ header a:hover {
     background-size: cover;
 }
 
-/*.background-image {
-    background-image: url("assets/images/Number-three.jpg");
+.intro-content {
     height: 800px;
-    width: 100%;
-    background-repeat: no-repeat;
-}*/
+    background-size: cover;
+    background-image: url("../assets/images/Number-three.jpg");
+    color: var(--white);
+}
 
+.intro-text {
+    display:block;
+    text-align: center;
+    background: rgba(12, 14, 58, 0.2)
+    padding: 25px;
+}
 
-/* Move this content to overlap the background image*/
-.article-content {
+.intro-text h1 {
+    font-size: large;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+}
+
+#headshot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+}
+
+.informative-content {
     height: 850px;
     background-size: 100%;
-    background-image: url("../assets/images/Rhythm.png");
+    background-image: url("../assets/images/Rhythm.png"); /* 2nd background image*/
     color: var(--white);
-     /*background-color: var(--black);
-    display: flex;
-    flex-direction:column;
+}
+
+.informative-text {
+    display:block;
+    text-align: center;
+    background: rgba(12, 14, 58, 0.2)
+}
+
+#about-text {
+    border-style: solid;
     padding: 100px;
-    color: var(--white);*/
 }
 
-
-
-.article-content section {
-
+.work {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    background: rgba(12, 14, 58, 0.2)
 }
 
-.article-content section p {
-    
+.work-item1 {
+    border-style: solid;
+    padding: 50px;
+    background-image: url(../assets/images/horiseon-screen-grab2.png);
+    margin: 25px;
 }
+
+.work-item2 {
+    border-style: solid;
+    padding: 50px;
+    margin: 25px;
+}
+
+.work-item3 {
+    border-style: solid;
+    padding: 50px;
+    margin: 25px;
+}
+
+.work-item4 {
+    border-style: solid;
+    padding: 50px;
+    margin: 25px;
+}
+
+/*footer {
+    color: var(--white);
+    text-align: center;
+}*/
