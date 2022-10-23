@@ -8,10 +8,10 @@ A webpage that comproises my name, photo, contact info, and a collection of my w
 N/A
 
 ## Usage
-
 This webpage can be used to: view my recent works as a web developer, read about Dylan Cassagnol, and contact Dylan Cassagnol. 
 
 ## Link
+https://darthcurtiscass.github.io/Dylan-Cassagnol-Portfolio/
 
 ## Screenshot
 
