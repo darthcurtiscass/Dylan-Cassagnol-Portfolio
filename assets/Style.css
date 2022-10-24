@@ -16,22 +16,22 @@ a {
 
 .header {
     background-color: var(--black);
-    color: var(--purple);
+    color: var(--gray);
     width: 100%;
     font-size:x-large;
     display: flex;
-    text-shadow: .5px .5px 0 rgb(255, 255, 255);
+    text-shadow: .5px .5px 0 rgba(255, 255, 255, 0.839);
 }
 
 .header a {
-    color: var(--purple);
+    color: var(--gray);
     font-weight: bold;
 }
 
 .navigation-item {
     background: var(--black);
     padding: 25px;
-    border: 5px solid var(--purple);
+    border: 5px solid var(--gray);
     justify-content: center;
     text-align: center;
 }
@@ -99,13 +99,12 @@ a:hover {
 .informative-text {
     display:block;
     text-align: center;
-    background: rgba(12, 14, 58, 0.2)
 }
 
 #about-text {
     border-style: solid;
     padding: 75px;
-    background-color:var(--purple);
+    background-color:var(--gray);
 }
 
 .work {
@@ -113,13 +112,14 @@ a:hover {
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    background-color: var(--purple);
+    background-color: var(--gray);
     border-style: solid;
 }
 
 .work h3 {
     font-size: 55px;
-    text-shadow: -1px 1px 0 rgb(255, 255, 255);
+    color:var(--gray);
+    text-shadow: 1px -1px 0 rgb(255, 255, 255);
 }
 
 .work-item1 {
@@ -150,7 +150,7 @@ a:hover {
 }
 
 #contact-info {
-    background-color: var(--purple);
+    background-color: var(--gray);
     padding: 20px;
     justify-content: center;
     border-style: solid;
