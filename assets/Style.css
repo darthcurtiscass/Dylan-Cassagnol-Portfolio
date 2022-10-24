@@ -18,6 +18,10 @@ body {
     display: flex;
 }
 
+.header a {
+    color: var(--purple);
+}
+
 .navigation-item {
     background: var(--black);
     padding: 10px;
@@ -38,7 +42,7 @@ body {
     flex-basis: 33%;
 }
 
-header a:hover {
+a:hover {
     color: var(--white);
     cursor: pointer;
 }
