@@ -98,7 +98,8 @@ a:hover {
 
 #about-text {
     border-style: solid;
-    padding: 100px;
+    padding: 75px;
+    background-color:var(--purple);
 }
 
 .work {
@@ -106,13 +107,16 @@ a:hover {
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    background: rgba(12, 14, 58, 0.2)
+    background-color: var(--purple);
+    border-style: solid;
+    /*background: rgba(12, 14, 58, 0.2)*/
 }
 
 .work-item1 {
-    border-style: solid;
-    padding: 50px;
-    background-image: url(../assets/images/horiseon-screen-grab2.png);
+    height: 500px;
+    flex-basis: 100%;
+    border-style: solid;;
+    background-image: url(../assets/images/horiseon-screen-grab.png); /* Horiseon-main-page */
     margin: 25px;
 }
 
@@ -132,6 +136,13 @@ a:hover {
     border-style: solid;
     padding: 50px;
     margin: 25px;
+}
+
+#contact-info {
+    background-color: var(--purple);
+    padding: 20px;
+    justify-content: center;
+    border-style: solid;
 }
 
 /*footer {
