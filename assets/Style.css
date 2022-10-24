@@ -2,12 +2,16 @@
     --black: black;
     --white: white;
     --gray: gray;
-    --purple: rgb(160, 76, 140);
+    --purple: rgb(88, 9, 111);
 }
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: var(--black);
+}
+
+a {
+    text-decoration: none;
 }
 
 .header {
@@ -20,11 +24,12 @@ body {
 
 .header a {
     color: var(--purple);
+    font-weight: bold;
 }
 
 .navigation-item {
     background: var(--black);
-    padding: 10px;
+    padding: 25px;
     border: 5px solid var(--purple);
     justify-content: center;
     text-align: center;
@@ -65,10 +70,6 @@ a:hover {
     text-align: center;
     background: rgba(12, 14, 58, 0.2);
     padding: 25px;
-}
-
-.intro-text h1 {
-    font-size: large;
 }
 
 .skills {
