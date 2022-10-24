@@ -114,7 +114,7 @@ a:hover {
 .work-item1 {
     height: 500px;
     flex-basis: 100%;
-    border-style: solid;;
+    border-style: solid;
     background-image: url(../assets/images/horiseon-screen-grab.png); /* Horiseon-main-page */
     margin: 25px;
 }
