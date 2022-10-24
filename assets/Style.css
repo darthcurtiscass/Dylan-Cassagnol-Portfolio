@@ -54,7 +54,7 @@ a:hover {
 }
 
 .intro-content {
-    height: 800px;
+    height: 650px;
     background-size: cover;
     background-image: url("../assets/images/Number-three.jpg");
     color: var(--white);
