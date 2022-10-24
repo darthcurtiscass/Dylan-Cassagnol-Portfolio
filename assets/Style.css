@@ -58,18 +58,22 @@ a:hover {
     background-size: cover;
 }
 
+.flex {
+    display: flex;
+}
+
 .intro-content {
-    height: 650px;
     background-size: cover;
     background-image: url("../assets/images/Number-three.jpg");
     color: var(--white);
 }
 
 .intro-text {
-    display:block;
     text-align: center;
     background: rgba(12, 14, 58, 0.2);
     padding: 25px;
+    color: var(--black);
+    text-shadow: -1px 1px 0 rgb(255, 255, 255);
 }
 
 .skills {
@@ -77,16 +81,16 @@ a:hover {
     justify-content: center;
 }
 
-#headshot {
+.headshot {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 35%;
+    box-shadow: -2px 5px 10px;
 }
 
 .informative-content {
-    height: 850px;
-    background-size: 100%;
+    background-size: cover;
     background-image: url("../assets/images/Rhythm.png"); /* 2nd background image*/
     color: var(--white);
 }
@@ -112,12 +116,18 @@ a:hover {
     border-style: solid;
 }
 
+.work h3 {
+    font-size: 55px;
+    text-shadow: -1px 1px 0 rgb(255, 255, 255);
+}
+
 .work-item1 {
     height: 500px;
     flex-basis: 100%;
     border-style: solid;
     background-image: url(../assets/images/horiseon-screen-grab.png); /* Horiseon-main-page */
     margin: 25px;
+    padding-top: 250px;
 }
 
 .work-item2 {
