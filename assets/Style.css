@@ -132,9 +132,12 @@ a:hover {
 }
 
 .work-item2 {
+    height: 500px;
+    flex-basis: 100%;
     border-style: solid;
-    padding: 50px;
+    background-image: url(../assets/images/Recipeasy.png); /* Horiseon-main-page */
     margin: 25px;
+    padding-top: 250px;
 }
 
 .work-item3 {
