@@ -141,9 +141,12 @@ a:hover {
 }
 
 .work-item3 {
+    height: 500px;
+    flex-basis: 100%;
     border-style: solid;
-    padding: 50px;
+    background-image: url(../assets/images/dnd_sc.png); /* Horiseon-main-page */
     margin: 25px;
+    padding-top: 250px;
 }
 
 .work-item4 {
